@@ -1,8 +1,79 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    
 }
 
+body {
+    background-color: #1F2937;
+}
+
+/* Images */
 .logo {
-    height: 80px;
+    height: 30px;
+    width: 80px;
+}
+
+.right-pic {
+    height: 200px;
+    width: 350px;
+}
+
+/* Header Top section */
+
+.header-container {
+    background-color: #1F2937;
+    display: flex;
+
+}
+
+.header-container, .logo-slot, .link-slot {
+    flex: 1;
+}
+
+.logo-slot {
+    margin-left: 150px;
+}
+
+.link-slot {
+    display: flex;
+    gap: 70px;
+}
+
+
+
+/* top mid of page */
+
+.tbody-container {
+    margin-top: 65px;
+    background-color: #1F2937;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+
+.tbody-container .left-text .right-text {
+    flex: 1;
+}
+
+
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Middle of the page */
+.mbody-1-of-3 {
+    background-color: white;
+}
+
+.mbody-2-of-3 {
+    background-color: #E5E7EB;
 }
