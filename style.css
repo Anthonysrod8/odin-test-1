@@ -15,7 +15,7 @@ body {
 
 .right-pic {
     height: 200px;
-    width: 350px;
+    width: 500px;
 }
 
 /* Header Top section */
@@ -24,6 +24,12 @@ body {
     background-color: #1F2937;
     display: flex;
 
+}
+
+a {
+    text-decoration: none;
+    color: #E5e7EB;
+    font-size: 12px;
 }
 
 .header-container, .logo-slot, .link-slot {
@@ -36,7 +42,7 @@ body {
 
 .link-slot {
     display: flex;
-    gap: 70px;
+    gap: 50px;
 }
 
 
@@ -47,15 +53,30 @@ body {
     margin-top: 65px;
     background-color: #1F2937;
     display:flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     
+}
+
+.left-text {
+    width: 500px;
+    height:200px;
 }
 
 .tbody-container .left-text .right-text {
     flex: 1;
 }
 
+/* Buttons */
+.sign-up-button {
+    height: 26px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
 
+}
 
 
 h1 {
@@ -72,8 +93,56 @@ p {
 /* Middle of the page */
 .mbody-1-of-3 {
     background-color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+    font-size: 19px;
 }
+
+/* four boxes */
+.mbody-1-of-3 div {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    display:inline-flex;
+    margin: 15px;
+}
+
+/* text under boxes */
+
+.underbox-text {
+    display: flex;
+    background-color:white;
+    text-align: center;
+    justify-content:center;
+    gap: 45px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.underbox-text div {
+    width: 120px;
+    height: 150px;
+}
+
+.underbox-text p {
+    font-size: 13px;
+    color: grey;
+}
+
+/* bottom of page */
 
 .mbody-2-of-3 {
     background-color: #E5E7EB;
+    height: 300px;
+    width: 100%;
+    overflow:hidden;
+    margin-top: -24px;
+}
+
+.mbody-2-of-3 p {
+    color: darkgrey;
+    font-size: 23px;
+
 }
