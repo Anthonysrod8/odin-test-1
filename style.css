@@ -50,10 +50,10 @@ a {
 /* top mid of page */
 
 .tbody-container {
-    margin-top: 65px;
     background-color: #1F2937;
     display:flex;
     justify-content: space-evenly;
+    padding-top: 70px;
     
 }
 
@@ -117,8 +117,6 @@ p {
     text-align: center;
     justify-content:center;
     gap: 45px;
-    margin-top: -20px;
-    margin-left: -20px;
 }
 
 .underbox-text div {
@@ -135,14 +133,81 @@ p {
 
 .mbody-2-of-3 {
     background-color: #E5E7EB;
-    height: 300px;
+    height: 250px;
     width: 100%;
     overflow:hidden;
-    margin-top: -24px;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
 
 .mbody-2-of-3 p {
     color: darkgrey;
-    font-size: 23px;
+    font-size: 28px;
+    height: 150px;
+    width: 500px;
+    margin-left: 340px;
+}
 
+.peragraph-sign { 
+    font-size: 26px;
+}
+
+.mbody-3-of-3 {
+    background-color: white;
+    height: 230px;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.complex-container {
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
+    border-radius: 5px;
+    color: white;
+    text-align:center;
+    display: flex;
+}
+
+.complex-container .left-one {
+    display:inline;
+    padding: 0;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.other-button {
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 150px;
+    padding-top: 5px;
+    
+}
+
+.complex-container h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.complex-container p {
+    font-size: 13px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: -18px;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
 }
